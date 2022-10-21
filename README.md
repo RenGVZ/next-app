@@ -9,8 +9,8 @@ This project started because I was interested in building an ecommerce site from
 How I used React:
 1. State management for the app is handled using the UseContext API from React
 2. Next JS is implemented using:
-  1. Server-side and static generation of data (getServerSideProps, getStaticProps, getStaticPaths)
-  2. Using Next JS as a backend endpoint
+   1. Server-side and static generation of data (getServerSideProps, getStaticProps, getStaticPaths)
+   2. Using Next JS as a backend endpoint
  
  
  
