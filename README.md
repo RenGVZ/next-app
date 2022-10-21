@@ -2,29 +2,38 @@
 ### View it here: https://next-app-koala-market.vercel.app/
 
 <img width="1434" alt="Screen Shot 2022-10-21 at 10 09 13 AM" src="https://user-images.githubusercontent.com/48096041/197091003-127bef7a-1f36-43e3-91bb-0e1200e9f597.png">
+&nbsp;&nbsp;
 
+This project started because I was interested in building an ecommerce site from the ground up. I wanted to know what the process would be like, and how I could handle real-world problems such as data persistance, payment processing, etc. I found a powerful solution in combining Sanity as a CMS and the Stripe payment system. The end result is a fully rendered and workable ecommerce application designed with the most modern web development practices in mind.
 
-This project started because I was interested in building an ecommerce site from the ground up. I wanted to know what the process would be like, and how I could handle real-world problems such as data persistance, payment processing, etc. I found a powerful solution in combining Sanity as a CMS and Stripe for payments. The end result is a fully rendered and working Ecommerce application designed with the most modern web development practices in mind.
-
+&nbsp;&nbsp;
 How I used React:
-1. State management for the app is handled using the UseContext API from React
-2. Next JS is implemented using:
-   1. Server-side and static generation of data (getServerSideProps, getStaticProps, getStaticPaths)
-   2. Using Next JS as a backend endpoint
+- State management for the app is handled using the UseContext API from React
+- Next JS is implemented using:
+   - Server-side and static generation of data (getServerSideProps, getStaticProps, getStaticPaths)
+   - Utilizing Next JS as a backend endpoint
+   - Modern React functional components with hooks and refs
+- Custom implementation of Stripe to handle the checkout process, shipping rates and products
+- Content is all managed through Sanity, I set up my own studio with customizations for each item and then used the sanity JS client to query product details and display on the FE.
+- The result is a hyper-scalable, modern ecommerce web application
  
- 
- 
- 
-
-
-<img width="1427" alt="Screen Shot 2022-10-21 at 10 09 26 AM" src="https://user-images.githubusercontent.com/48096041/197091017-59270f58-1e3a-462e-bcc7-ab8faa8614fb.png">
-
-<img width="1069" alt="Screen Shot 2022-10-21 at 10 10 25 AM" src="https://user-images.githubusercontent.com/48096041/197091036-588e9af6-aa69-4bc6-86cc-46bd521a0074.png">
-
-<img width="1074" alt="Screen Shot 2022-10-21 at 10 11 35 AM" src="https://user-images.githubusercontent.com/48096041/197091060-3640cd66-7c3f-447c-86d1-301f5a4985d3.png">
-
-<img width="1071" alt="Screen Shot 2022-10-21 at 10 12 09 AM" src="https://user-images.githubusercontent.com/48096041/197091088-ada5344f-e2f8-4113-b51f-14ae818feb50.png">
-
+ &nbsp;&nbsp;
+<p align="center" width="100%">
+<img width="800" alt="Screen Shot 2022-10-21 at 10 09 26 AM" src="https://user-images.githubusercontent.com/48096041/197091017-59270f58-1e3a-462e-bcc7-ab8faa8614fb.png">
+</p>
+&nbsp;&nbsp;
+<p align="center" width="100%">
+<img width="800" alt="Screen Shot 2022-10-21 at 10 10 25 AM" src="https://user-images.githubusercontent.com/48096041/197091036-588e9af6-aa69-4bc6-86cc-46bd521a0074.png">
+</p>
+&nbsp;&nbsp;
+<p align="center" width="100%">
+<img width="1000" alt="Screen Shot 2022-10-21 at 10 11 35 AM" src="https://user-images.githubusercontent.com/48096041/197091060-3640cd66-7c3f-447c-86d1-301f5a4985d3.png">
+</p>
+&nbsp;&nbsp;
+<p align="center" width="100%">
+<img width="800" alt="Screen Shot 2022-10-21 at 10 12 09 AM" src="https://user-images.githubusercontent.com/48096041/197091088-ada5344f-e2f8-4113-b51f-14ae818feb50.png">
+</p>
+&nbsp;&nbsp;
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
